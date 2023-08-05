@@ -14,6 +14,6 @@ void loop() {
     Serial.println("Motion detected!");
     digitalWrite(buzzerPin, HIGH);  // Turn on the buzzer
     delay(3000);                     // Wait for 3 seconds
-    digitalWrite(buzzerPin, high);   // Turn off the buzzer
+    digitalWrite(buzzerPin, LOW);   // Turn off the buzzer
   }
 }
