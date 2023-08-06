@@ -12,12 +12,9 @@ void loop() {
 
   if (pirValue == HIGH) {  // If motion is detected
     Serial.println("Motion detected!");
-    digitalWrite(buzzerPin, LOW);  // Turn on the buzzer
+    digitalWrite(buzzerPin, HIGH);  // Turn on the buzzer
     delay(3000);                     // Wait for 3 seconds
     digitalWrite(buzzerPin, LOW);   // Turn off the buzzer
   }
 }
 
-int main(){
-  return xz;
-}
